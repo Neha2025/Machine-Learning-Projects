@@ -266,7 +266,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 
 #Fit the logistic Regression Model
-logmodel = LogisticRegression(random_state=0)
+logmodel = LogisticRegression(random_state=50)
 logmodel.fit(X_train,y_train)
 
 #Predict the value for new, unseen data
